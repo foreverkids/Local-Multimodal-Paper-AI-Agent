@@ -57,29 +57,29 @@
 python main.py add_paper "./path/paper.pdf"
 
 # 使用自定义分类
-python main.py add_paper "./path/paper.pdf" --topics "金融,法律,宏观经济"
+python main.py add_paper "./path/paper.pdf" --topics "CV,NLP,AGI"
 ```
 
 **一键整理混乱的文件夹：**
 ```bash
-python main.py scan_dir "./my_messy_desktop"
+python main.py scan_dir "./your_mess_paper_folder"
 ```
 
 **语义搜索论文：**
 ```bash
-python main.py search_paper "什么是强化学习的奖励函数？"
+python main.py search_paper "什么是持续学习？"
 ```
 
 ### 2. 图像管理
 
 **索引图片：**
 ```bash
-python main.py add_image "./photos/cat.jpg"
+python main.py add_image "./path/flower.jpg"
 ```
 
 **以文搜图：**
 ```bash
-python main.py search_image "在草地上跑的猫"
+python main.py search_image "一朵花"
 ```
 
 ## 3. 演示与截图 (Demo)
@@ -110,4 +110,5 @@ python main.py search_image "在草地上跑的猫"
 ### 3. 分类结果全是 `Uncategorized`?
 *   **原因**: 可能是扫描版 PDF（图片格式）无法提取文字。
 *   **解决**: 确保 PDF 是可编辑/可搜索的文本版本。
+
 
