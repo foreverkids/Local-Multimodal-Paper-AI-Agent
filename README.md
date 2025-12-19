@@ -1,6 +1,6 @@
 # 🚀 本地 AI 多模态助手 (Local Multimodal AI Agent)
 
-本项目是一个基于 **Python 3.8+** 的本地多模态 AI 助手，利用 **Google Gemini 2.0/1.5** 顶尖模型和 **ChromaDB** 向量数据库，实现对本地文献与图像的“语义级”管理。
+本项目是一个基于 **Python 3.8+** 的本地多模态 AI 助手，利用 **Google Gemini 2.5** 模型和 **ChromaDB** 向量数据库，实现对本地文献与图像的“语义级”管理。
 
 ## 🌟 核心功能
 
@@ -14,16 +14,15 @@
 
 ## 🛠️ 技术栈
 
-*   **大模型 SDK**: `google-genai` (v2.0+ 官方最新版)
-*   **推理模型**: `gemini-1.5-flash` (推荐用于分类，额度稳定)
+*   **大模型 SDK**: `google-genai`
+*   **推理模型**: `gemini-2.5-flash` (推荐用于分类，额度稳定)
 *   **向量数据库**: `ChromaDB` (轻量化本地向量存储)
 *   **多模态处理**: `Pillow` (图像), `pypdf` (文档处理)
 
 ## 📦 环境安装
 
-1.  **安装依赖库** (确保卸载旧版 `google-generativeai`):
+1.  **安装依赖库**:
     ```bash
-    pip uninstall google-generativeai
     pip install google-genai chromadb pypdf Pillow
     ```
 2.  **获取 API Key**:
@@ -110,5 +109,6 @@ python main.py search_image "一朵花"
 ### 3. 分类结果全是 `Uncategorized`?
 *   **原因**: 可能是扫描版 PDF（图片格式）无法提取文字。
 *   **解决**: 确保 PDF 是可编辑/可搜索的文本版本。
+
 
 
