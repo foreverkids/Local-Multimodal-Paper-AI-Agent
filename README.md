@@ -83,14 +83,14 @@ python main.py search_image "在草地上跑的猫"
 ```
 
 ## 3. 演示与截图 (Demo)
-<video controls src="./.image/demo.mp4" title="Title"></video>
+<video controls src="./resource/demo.mp4" title="Title"></video>
 
 1.  **自动分类演示**:
-![alt text](./.image/image1.png)
+![alt text](./resource/image1.png)
 2.  **语义搜索演示**:
-![alt text](./.image/image2.png)
+![alt text](./resource/image2.png)
 3.  **以文搜图演示**:
-![alt text](./.image/imag3.png)
+![alt text](./resource/imag3.png)
 
 ## 设计思路说明 (Design Philosophy)
 *   **Convention over Configuration (约定优于配置)**: 代码内置了通用的 CS 领域分类列表。用户在大多数情况下无需输入繁琐的参数即可直接使用，仅在需要跨领域整理时才需指定 `--topics`。
