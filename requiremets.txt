@@ -1,0 +1,7 @@
+google-generativeai
+chromadb
+pypdf
+Pillow
+argparse
+python-dotenv
+GOOGLE_API_KEY = "AIzaSyCHd7JbWSb6q0291vfOwwIHlsjXmzxbl7M"
