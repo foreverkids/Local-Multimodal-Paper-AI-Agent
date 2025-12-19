@@ -82,7 +82,8 @@ python main.py search_image "一朵花"
 ```
 
 ## 3. 演示与截图 (Demo)
-![./resource/redpandacompress_demo.mp4](https://github.com/foreverkids/Local-Multimodal-Paper-AI-Agent/blob/main/resource/redpandacompress_demo.mp4)
+<video src="https://github.com/foreverkids/Local-Multimodal-Paper-AI-Agent/raw/main/resource/redpandacompress_demo.mp4" controls="controls" width="100%">
+</video>
 
 1.  **自动分类演示**:
 ![alt text](./resource/image1.png)
@@ -109,6 +110,7 @@ python main.py search_image "一朵花"
 ### 3. 分类结果全是 `Uncategorized`?
 *   **原因**: 可能是扫描版 PDF（图片格式）无法提取文字。
 *   **解决**: 确保 PDF 是可编辑/可搜索的文本版本。
+
 
 
 
