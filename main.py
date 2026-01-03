@@ -10,7 +10,7 @@ from google import genai
 from google.genai import types
 
 # =================配置区域=================
-GOOGLE_API_KEY = "AIzaSyCHd7JbWSb6q0291vfOwwIHlsjXmzxbl7M"
+GOOGLE_API_KEY = "your own api key"
 
 # 修正了拼写错误并增加默认分类
 DEFAULT_TOPICS = "Computer Vision, NLP, Image Deblurring, Operating Systems, Continual Learning, Recommendation Systems"
